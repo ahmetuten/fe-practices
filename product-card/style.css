@@ -1,0 +1,126 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    --base-font-size: 14px;
+}
+
+/************** Main Div **************/
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% auto;
+    width: 50%;
+    height: 60vh;
+    border-radius: 30vh;
+}
+
+/************** Left Side **************/
+
+.product-image {
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.product-info {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+img {
+    max-width: 100%;
+    height: fit-content;
+    object-fit: fill;
+}
+
+/************** Right Side **************/
+
+.product-type {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: gray;
+    margin: 1.7857em 0 0.7352941176em 1.7857em;
+}
+
+.product-name {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1em;
+    margin: 0 0 0.7352941176em 0.7352941176em;
+}
+
+.product-features {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    line-height: 1.7em;
+    margin: 0.7352941176em 0 0 1.7857em;
+}
+
+.product-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 2.125em;
+    margin: 0 0 0.4411764706em 0.7352941176em;
+    display: inline-block;
+}
+
+.product-sale {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 25px;
+}
+
+.product-cart {
+    border: none;
+    margin-left: 25px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    height: 10%;
+    margin-right: 50px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.product-cart:hover {
+    background-color: hsl(158, 36%, 20%);
+}
+
+/************** Mobile **************/
+
+@media (max-width: 768px) {
+.main {
+    display: block;
+    width: 100%;
+}
+    
+.product-image, .product-info {
+    width: 100%;
+}}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main {
+        display: block;
+        width: 100%;
+    }
+        
+    .product-image, .product-info {
+        width: 100%;
+    }
+
+}
