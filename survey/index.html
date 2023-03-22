@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <div class="container">
+      <form id="survey-form">
+        <!-- Inputs -->
+        <label for="name" id="name-label">Name</label> <br />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required
+        /><br />
+        <label for="email" id="email-label">Email</label><br />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        /><br />
+        <label for="number" id="number-label">Age</label><br />
+        <input
+          type="number"
+          id="number"
+          pattern="[0-9]"
+          min="13"
+          max="120"
+          placeholder="Age"
+        />
+        <br />
+        <hr />
+        <!-- Dropdown -->
+        <label for="dropdown"
+          >Which option best describes your current role?</label
+        ><br />
+        <select id="dropdown">
+          <option name="select-one">Select current role</option>
+          <option name="teacher">Teacher</option>
+          <option name="student">Student</option>
+        </select>
+        <hr />
+        <!-- Radios -->
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <input type="radio" name="recommend" id="yes" value="yes" />
+        <label for="yes">Yes</label><br />
+        <input type="radio" name="recommend" id="no" value="yes" />
+        <label for="no">No</label> <br />
+        <hr />
+        <!-- Checkboxes -->
+        <p>What would you like to see improved?</p>
+        <input type="checkbox" name="improve" id="fe" value="fe" />
+        <label for="fe">Front-End</label><br />
+        <input type="checkbox" name="improve" id="be" value="be" />
+        <label for="no">Back-End</label>
+        <hr />
+        <!-- Comments -->
+        <p>Any comments or suggestions?</p>
+        <textarea
+          name=""
+          id="textarea"
+          cols="30"
+          rows="3"
+          placeholder="Enter your comment here..."
+        ></textarea>
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>
