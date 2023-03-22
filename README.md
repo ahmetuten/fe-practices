@@ -8,3 +8,12 @@ practices for FE Dev
 2- Product Card is the card for an example product
 
 <img width="1318" alt="image" src="https://user-images.githubusercontent.com/74630874/224552885-1ee492a6-68b5-4310-874e-f8a205aa67cb.png">
+
+3- Tribute Page is a page for Dr. Norman Borlaug
+
+<img width="1378" alt="image" src="https://user-images.githubusercontent.com/74630874/227049201-6cea0e02-9815-4a9e-ae03-b078b75924fc.png">
+
+
+4- Survey is a practice for forms, from freecodecamp.
+
+<img width="1378" alt="image" src="https://user-images.githubusercontent.com/74630874/227049251-1aec3727-ced1-422f-9ccb-2d79dfe0b1cc.png">
