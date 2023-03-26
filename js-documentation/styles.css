@@ -1,0 +1,114 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Open Sans',"Arial", sans-serif;
+}
+
+p, li,a  {
+    color: rgba(0,0,0,0.8);
+    font-size: 15px;
+}
+
+header {
+    font-size: 28.8px;
+}
+
+#main-doc {
+    position: absolute;
+    left: 45svh;
+}
+
+/****************** Navbar ******************/
+
+#navbar {
+    height: 100svh;
+    width: 41svh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid black;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+#navbar li {
+    list-style-type: none;
+    border-top: 1px solid;
+}
+
+#navbar a:visited {
+    color: black;
+}
+
+#navbar header {
+    text-align: center;
+    margin: 2svh 0;
+}
+
+#navbar a {
+    display: block;
+    margin: 2svh 0 2svh 2svw;
+}
+
+#navbar ul:last-child {
+    border-bottom: 1px solid
+}
+
+/****************** Main ******************/
+
+section {
+    line-height: 1.5rem;
+}
+
+section > header {
+    margin: 4svh 0;
+}
+
+section > p {
+    margin: 0 1.5rem 1rem 1.5rem;
+}
+
+.main-section li {
+    margin-left: 5rem;
+}
+
+section > ul > li {
+    margin-bottom: 1rem;
+}
+
+code {
+    display: block;
+    background-color: rgb(247,247,247);
+    margin: 20px;
+    padding: 15px;
+}
+
+#reference {
+    margin-bottom: 5svh;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        position: fixed;
+        top: 0;
+        max-height: 275px;
+        width: 100svw;
+        height: 40svh;
+        overflow: scroll;
+        border-bottom: 2px solid;
+        background-color: white;
+    }
+
+    main {
+    position: absolute;
+    top: 40svh !important;
+    left: 2svh !important;
+    }
+}
