@@ -22,6 +22,6 @@ practices for FE Dev
 <img width="1378" alt="image" src="https://user-images.githubusercontent.com/74630874/227049251-1aec3727-ced1-422f-9ccb-2d79dfe0b1cc.png">
 
 
-5- Documentation page is an example documentation page.
+5- Documentation page is an example responsive documentation page.
 
 <img width="1427" alt="image" src="https://user-images.githubusercontent.com/74630874/227748695-4651e1a9-abd9-4909-beb5-6d501975f791.png">
