@@ -25,3 +25,7 @@ practices for FE Dev
 5- Documentation page is an example responsive documentation page.
 
 <img width="1427" alt="image" src="https://user-images.githubusercontent.com/74630874/227748695-4651e1a9-abd9-4909-beb5-6d501975f791.png">
+
+6- Responsive landing page for a product.
+
+<img width="1378" alt="image" src="https://user-images.githubusercontent.com/74630874/230782180-6bc73c22-f9be-4702-bef9-faee239b743f.png">
