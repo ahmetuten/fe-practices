@@ -29,3 +29,7 @@ practices for FE Dev
 6- Responsive landing page for a product.
 
 <img width="1378" alt="image" src="https://user-images.githubusercontent.com/74630874/230782180-6bc73c22-f9be-4702-bef9-faee239b743f.png">
+
+7- Random quote generator.
+
+<img width="1378" alt="image" src="https://user-images.githubusercontent.com/74630874/232312469-6d15aa19-5198-4c19-9712-581407c9e45f.png">
